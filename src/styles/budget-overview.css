@@ -1,0 +1,86 @@
+.overview-container {
+    background-color: #1b1b1b;
+    border: 1px solid #0a0a0a;
+    border-radius: 10px;
+    box-shadow: .8px .81px .8px .81px #0a0a0a;
+    font-family: monospace;
+    font-size: 20px;
+    .title{
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .outer-box {
+        div {
+            box-shadow: 1px 1px 1px 1px #121212;
+            text-align: center;
+            background-color: çç;
+            border-radius: 5px;
+
+            &:hover {
+                opacity: .8;
+                cursor: pointer;
+            }
+
+            span {
+                display: block;
+                font-size: 20px;
+            }
+
+        }
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1000px) {
+    .overview-container {
+        width: 56%;
+        display: flex;
+        flex-direction: column;
+
+        .outer-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            div {
+                border-radius: 5px;
+                padding-inline: 30px;
+                padding-block: 20px;
+                margin-block: 20px;
+            }
+        }
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .overview-container {
+        width: 38%;
+        padding-inline: 1%;
+        margin-block: 2%;
+        display: flex;
+        flex-direction: column;
+
+        .outer-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            div {
+                border-radius: 5px;
+                padding-inline: 30px;
+                padding-block: 20px;
+                margin-block: 20px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,59 @@
+@media only screen and (min-width: 1100px) {
+    .weekly-table {
+        width: 40%;
+
+        button{
+            float: right;
+            margin: 20px;
+            border-radius: 3px;
+            border: 3px solid #121212;
+            color: #fff;
+            background: #161616;
+            padding: 10px;
+
+            &:hover{
+                cursor: pointer;
+                opacity: .9;
+            }
+        }
+
+        table {
+            margin: 0;
+            padding: 0;
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            background-color: #fff;
+            outline: none;
+            border: none;
+
+
+            th,
+            td {
+                border-bottom: 1px solid #ddd;
+                padding: 8px;
+
+            }
+
+            th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #161616;
+                color: white;
+            }
+
+
+
+            td {
+                input {
+                    font-size: 14px;
+                    outline: none;
+                    border: none;
+                    padding: 10px;
+                }
+            }
+
+        }
+    }
+}
